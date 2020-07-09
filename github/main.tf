@@ -12,5 +12,5 @@ resource "github_repository" "iac-devopsng" {
 
 resource "github_branch" "master" {
   repository = github_repository.iac-devopsng.name
-  branch     = "master"
+  branch     = "iac-terraform"
 }
